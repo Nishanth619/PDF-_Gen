@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme for Android 12+ (API 31+) Splash Screen -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Splash screen background color (orange to match Flutter splash) -->
+        <item name="android:windowSplashScreenBackground">@color/ic_launcher_background</item>
+        <!-- No icon on splash - let Flutter handle branding -->
+        <item name="android:windowSplashScreenAnimatedIcon">@android:color/transparent</item>
+        <!-- Remove branding image -->
+        <item name="android:windowSplashScreenBrandingImage">@null</item>
+    </style>
+    
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+</resources>

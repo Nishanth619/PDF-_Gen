@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple launch background (API 21+) - no logo (Flutter splash handles branding) -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background color matching the logo orange -->
+    <item android:drawable="@color/ic_launcher_background" />
+</layer-list>

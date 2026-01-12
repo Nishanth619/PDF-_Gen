@@ -1,0 +1,4 @@
+enum PDFMode {
+  split,
+  merge,
+}
