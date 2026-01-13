@@ -46,6 +46,11 @@ PDFGen is a state-of-the-art mobile application for professional PDF creation an
 | <img src="docs/screenshots/security.png" width="250" alt="Security"/> | <img src="docs/screenshots/signature.png" width="250" alt="Signature"/> | <img src="docs/screenshots/id_photo.png" width="250" alt="ID Photo"/> |
 | **Encryption & Password** | **Vector Signatures** | **Background Removal** |
 
+| Split & Merge | Business Card Scanner | Advanced Scanning |
+|:-------------:|:---------------------:|:-----------------:|
+| <img src="docs/screenshots/split_merge.png" width="250" alt="Split Merge"/> | <img src="docs/screenshots/business_card.png" width="250" alt="Business Card"/> | <img src="docs/screenshots/scanner_advanced.png" width="250" alt="Advanced Scanner"/> |
+| **Manage Pages** | **Contact Extraction** | **Auto Edge Detection** |
+
 ---
 
 ## 🏗 Architecture
