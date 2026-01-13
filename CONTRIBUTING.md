@@ -284,7 +284,7 @@ Please ensure your PR meets the following requirements:
 
 ## License
 
-By submitting a pull request, you agree that your contributions will be licensed under the MIT License of the project.
+By submitting a pull request, you agree that your contributions will be licensed under the Proprietary License of the project.
 
 ---
 
