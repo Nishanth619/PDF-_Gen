@@ -1,6 +1,8 @@
-# PDFGen - Document Conversion & PDF Toolkit
-
 <div align="center">
+
+<img src="docs/logo.png" width="120" height="120" alt="PDFGen Logo" style="border-radius: 20px"/>
+
+# PDFGen - Document Conversion & PDF Toolkit
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.5.4-02569B?logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-3.0+-0175C2?logo=dart&logoColor=white)
