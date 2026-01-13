@@ -11,9 +11,9 @@ class AdService {
   AdService._internal();
 
   static const String _bannerAdUnitId =
-      'ca-app-pub-4025737666505759/9931794866'; // Production banner ad unit ID
+      'ca-app-pub-3940256099942544/6300978111'; // Test Banner ID
   static const String _interstitialAdUnitId =
-      'ca-app-pub-4025737666505759/9009595433'; // Production interstitial ad unit ID
+      'ca-app-pub-3940256099942544/1033173712'; // Test Interstitial ID
 
   // Feature navigation tracking
   int _featureNavigationCount = 0;

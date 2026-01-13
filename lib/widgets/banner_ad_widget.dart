@@ -21,8 +21,8 @@ class _BannerAdWidgetState extends State<BannerAdWidget> {
   BannerAd? _bannerAd;
   bool _isLoaded = false;
 
-  // Production banner ad unit ID
-  static const String _adUnitId = 'ca-app-pub-4025737666505759/9931794866';
+  // Test banner ad unit ID
+  static const String _adUnitId = 'ca-app-pub-3940256099942544/6300978111';
 
   @override
   void initState() {
@@ -88,7 +88,7 @@ class _AdaptiveBannerAdWidgetState extends State<AdaptiveBannerAdWidget> {
   BannerAd? _bannerAd;
   bool _isLoaded = false;
 
-  static const String _adUnitId = 'ca-app-pub-4025737666505759/9931794866';
+  static const String _adUnitId = 'ca-app-pub-3940256099942544/6300978111';
 
   @override
   void didChangeDependencies() {
