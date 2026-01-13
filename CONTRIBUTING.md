@@ -1,73 +1,73 @@
-# Beitragen zu PDFGen
+# Contributing to PDFGen
 
-Vielen Dank für Ihr Interesse an der Mitarbeit an PDFGen! Dieses Dokument enthält Richtlinien und Anweisungen für Beiträge.
-
----
-
-## Verhaltenskodex
-
-Mit der Teilnahme an diesem Projekt erklären Sie sich bereit, eine respektvolle und integrative Umgebung für alle zu pflegen. Bitte lesen Sie unseren [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+Thank you for your interest in contributing to PDFGen! This document provides guidelines and instructions for contributions.
 
 ---
 
-## Wie Sie beitragen können
+## Code of Conduct
 
-### 🐛 Fehler melden
+By participating in this project, you agree to maintain a respectful and inclusive environment for everyone. Please read our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
-Bevor Sie einen Fehlerbericht erstellen, prüfen Sie bitte die bestehenden Issues, um Duplikate zu vermeiden.
+---
 
-**Erforderliche Informationen:**
+## How to Contribute
 
-| Feld | Beschreibung |
-|------|-------------|
-| Titel | Klarer, prägnanter Titel |
-| Beschreibung | Detaillierte Problembeschreibung |
-| Reproduktionsschritte | Nummerierte Schritte zur Reproduktion |
-| Erwartetes Verhalten | Was sollte passieren? |
-| Tatsächliches Verhalten | Was passiert stattdessen? |
-| Screenshots | Falls zutreffend |
-| Gerät/OS | Gerätemodell und Betriebssystemversion |
-| App-Version | PDFGen-Version |
-| Logs | Relevante Fehlerprotokolle |
+### 🐛 Reporting Bugs
 
-**Fehlerbericht-Vorlage:**
+Before creating a bug report, please check existing issues to avoid duplicates.
+
+**Required Information:**
+
+| Field | Description |
+|-------|-------------|
+| Title | Clear, concise title |
+| Description | Detailed problem description |
+| Reproduction Steps | Numbered steps to reproduce |
+| Expected Behavior | What should happen? |
+| Actual Behavior | What happens instead? |
+| Screenshots | If applicable |
+| Device/OS | Device model and OS version |
+| App Version | PDFGen version |
+| Logs | Relevant error logs |
+
+**Bug Report Template:**
 
 ```markdown
-## Fehlerbeschreibung
-[Klare Beschreibung des Fehlers]
+## Bug Description
+[Clear description of the bug]
 
-## Reproduktionsschritte
-1. Gehe zu '...'
-2. Klicke auf '...'
-3. Scrolle nach unten zu '...'
-4. Fehler tritt auf
+## Reproduction Steps
+1. Go to '...'
+2. Click on '...'
+3. Scroll down to '...'
+4. Error occurs
 
-## Erwartetes Verhalten
-[Beschreibung]
+## Expected Behavior
+[Description]
 
-## Tatsächliches Verhalten
-[Beschreibung]
+## Actual Behavior
+[Description]
 
 ## Screenshots
-[Falls zutreffend]
+[If applicable]
 
-## Umgebung
-- Gerät: [z.B. Samsung Galaxy S21]
-- OS: [z.B. Android 13]
-- App-Version: [z.B. 1.0.0]
+## Environment
+- Device: [e.g., Samsung Galaxy S21]
+- OS: [e.g., Android 13]
+- App Version: [e.g., 1.0.0]
 ```
 
 ---
 
-### 💡 Verbesserungen vorschlagen
+### 💡 Suggesting Enhancements
 
-Verbesserungsvorschläge sind willkommen! Bitte stellen Sie folgende Informationen bereit:
+Enhancement suggestions are welcome! Please provide the following information:
 
-- **Klarer Titel und Beschreibung**
-- **Anwendungsfall**: Warum wird diese Verbesserung benötigt?
-- **Vorgeschlagene Lösung**: Ihre Implementierungsidee
-- **Alternative Lösungen**: Welche Alternativen haben Sie in Betracht gezogen?
-- **Mockups/Beispiele**: Falls zutreffend
+- **Clear title and description**
+- **Use case**: Why is this enhancement needed?
+- **Proposed solution**: Your implementation idea
+- **Alternative solutions**: What alternatives have you considered?
+- **Mockups/Examples**: If applicable
 
 ---
 
@@ -78,98 +78,98 @@ Verbesserungsvorschläge sind willkommen! Bitte stellen Sie folgende Information
 ```mermaid
 flowchart LR
     A[Fork] --> B[Branch]
-    B --> C[Entwickeln]
-    C --> D[Testen]
+    B --> C[Develop]
+    C --> D[Test]
     D --> E[Commit]
     E --> F[Push]
     F --> G[Pull Request]
 ```
 
-#### Schritt-für-Schritt
+#### Step-by-Step
 
-1. **Repository forken**
+1. **Fork the repository**
    ```bash
-   # Über GitHub UI
+   # Via GitHub UI
    ```
 
-2. **Repository klonen**
+2. **Clone the repository**
    ```bash
-   git clone https://github.com/IHR-USERNAME/PDF-_Gen.git
+   git clone https://github.com/YOUR-USERNAME/PDF-_Gen.git
    cd PDF-_Gen
    ```
 
-3. **Feature-Branch erstellen**
+3. **Create a feature branch**
    ```bash
-   git checkout -b feature/meine-neue-funktion
+   git checkout -b feature/my-new-feature
    ```
 
-4. **Änderungen entwickeln**
-   - Halten Sie sich an die Coding-Standards (siehe unten)
-   - Schreiben Sie Tests für neue Funktionen
-   - Aktualisieren Sie die Dokumentation
+4. **Develop your changes**
+   - Follow the coding standards (see below)
+   - Write tests for new features
+   - Update documentation
 
-5. **Tests ausführen**
+5. **Run tests**
    ```bash
    flutter test
    flutter analyze
    ```
 
-6. **Änderungen committen**
+6. **Commit your changes**
    ```bash
-   git commit -m "feat: Neue Funktion hinzugefügt"
+   git commit -m "feat: Add new feature"
    ```
 
-7. **Branch pushen**
+7. **Push the branch**
    ```bash
-   git push origin feature/meine-neue-funktion
+   git push origin feature/my-new-feature
    ```
 
-8. **Pull Request erstellen**
-   - Über GitHub UI
-   - Verwenden Sie die PR-Vorlage
+8. **Create a Pull Request**
+   - Via GitHub UI
+   - Use the PR template
 
 ---
 
-## Coding-Standards
+## Coding Standards
 
 ### Dart/Flutter Style Guide
 
-Wir folgen dem [Effective Dart](https://dart.dev/guides/language/effective-dart) Style Guide.
+We follow the [Effective Dart](https://dart.dev/guides/language/effective-dart) style guide.
 
-#### Namenskonventionen
+#### Naming Conventions
 
-| Element | Konvention | Beispiel |
-|---------|-----------|----------|
-| Klassen | PascalCase | `PDFSecurityService` |
-| Dateien | snake_case | `pdf_security_service.dart` |
-| Variablen | camelCase | `currentPage` |
-| Konstanten | lowerCamelCase | `maxPageCount` |
-| Private Member | _ Prefix | `_internalState` |
+| Element | Convention | Example |
+|---------|-----------|---------|
+| Classes | PascalCase | `PDFSecurityService` |
+| Files | snake_case | `pdf_security_service.dart` |
+| Variables | camelCase | `currentPage` |
+| Constants | lowerCamelCase | `maxPageCount` |
+| Private Members | _ Prefix | `_internalState` |
 
-#### Code-Formatierung
+#### Code Formatting
 
 ```bash
-# Vor dem Commit ausführen
+# Run before commit
 dart format lib/ test/
 flutter analyze
 ```
 
-#### Dokumentation
+#### Documentation
 
 ```dart
-/// Kurzbeschreibung der Klasse.
+/// Brief description of the class.
 ///
-/// Detailliertere Beschreibung, wenn nötig.
-/// Kann mehrere Zeilen umfassen.
+/// More detailed description if needed.
+/// Can span multiple lines.
 class PDFService {
-  /// Erstellt ein PDF aus den gegebenen Bildern.
+  /// Creates a PDF from the given images.
   ///
-  /// [images] - Liste der zu konvertierenden Bilder
-  /// [quality] - Bildqualität (0.0 - 1.0)
+  /// [images] - List of images to convert
+  /// [quality] - Image quality (0.0 - 1.0)
   ///
-  /// Gibt das generierte PDF als [Uint8List] zurück.
+  /// Returns the generated PDF as [Uint8List].
   ///
-  /// Throws [PDFGenerationException] wenn die Generierung fehlschlägt.
+  /// Throws [PDFGenerationException] if generation fails.
   Future<Uint8List> createPDF(List<Image> images, {double quality = 0.8}) async {
     // Implementation
   }
@@ -178,9 +178,9 @@ class PDFService {
 
 ---
 
-## Commit-Konventionen
+## Commit Conventions
 
-Wir folgen den [Conventional Commits](https://www.conventionalcommits.org/de/) Spezifikationen.
+We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification.
 
 ### Format
 
@@ -192,106 +192,106 @@ Wir folgen den [Conventional Commits](https://www.conventionalcommits.org/de/) S
 [optional footer]
 ```
 
-### Typen
+### Types
 
-| Type | Beschreibung |
+| Type | Description |
 |------|-------------|
-| `feat` | Neue Funktion |
-| `fix` | Fehlerbehebung |
-| `docs` | Nur Dokumentation |
-| `style` | Formatierung, keine Codeänderung |
-| `refactor` | Code-Refactoring |
-| `perf` | Performance-Verbesserung |
-| `test` | Tests hinzufügen/ändern |
-| `chore` | Wartungsaufgaben |
+| `feat` | New feature |
+| `fix` | Bug fix |
+| `docs` | Documentation only |
+| `style` | Formatting, no code change |
+| `refactor` | Code refactoring |
+| `perf` | Performance improvement |
+| `test` | Add/modify tests |
+| `chore` | Maintenance tasks |
 
-### Beispiele
+### Examples
 
 ```bash
 # Feature
-git commit -m "feat(scanner): KI-gestützte Kantenerkennung hinzugefügt"
+git commit -m "feat(scanner): Add AI-powered edge detection"
 
 # Bugfix
-git commit -m "fix(pdf): Absturz bei leerer Bildliste behoben"
+git commit -m "fix(pdf): Fix crash with empty image list"
 
-# Dokumentation
-git commit -m "docs: README mit Installationsanleitung aktualisiert"
+# Documentation
+git commit -m "docs: Update README with installation guide"
 
 # Breaking Change
-git commit -m "feat(api)!: Neues Service-Interface eingeführt
+git commit -m "feat(api)!: Introduce new service interface
 
-BREAKING CHANGE: PDFService Interface geändert"
+BREAKING CHANGE: PDFService interface changed"
 ```
 
 ---
 
-## Projektstruktur
+## Project Structure
 
 ```
 lib/
-├── constants/     # Konstanten und Konfiguration
-├── database/      # Datenbankschicht
-├── models/        # Datenmodelle
-├── providers/     # State Management
-├── screens/       # UI-Bildschirme
-├── services/      # Geschäftslogik
-├── utils/         # Hilfsfunktionen
-└── widgets/       # Wiederverwendbare Widgets
+├── constants/     # Constants and configuration
+├── database/      # Database layer
+├── models/        # Data models
+├── providers/     # State management
+├── screens/       # UI screens
+├── services/      # Business logic
+├── utils/         # Utility functions
+└── widgets/       # Reusable widgets
 ```
 
-### Wo gehört mein Code hin?
+### Where Does My Code Belong?
 
-| Änderung | Verzeichnis |
-|----------|-------------|
-| Neuer Bildschirm | `lib/screens/` |
-| Neue Geschäftslogik | `lib/services/` |
-| Neues Datenmodell | `lib/models/` |
-| Wiederverwendbares Widget | `lib/widgets/` |
-| Hilfsfunktion | `lib/utils/` |
-
----
-
-## Pull Request Checkliste
-
-Bitte stellen Sie sicher, dass Ihr PR folgende Punkte erfüllt:
-
-- [ ] Code folgt den Coding-Standards
-- [ ] Alle Tests bestanden (`flutter test`)
-- [ ] Keine Analyse-Warnungen (`flutter analyze`)
-- [ ] Code ist formatiert (`dart format`)
-- [ ] Dokumentation aktualisiert
-- [ ] Commit-Nachrichten folgen Konventionen
-- [ ] Changelog aktualisiert (bei Features/Bugfixes)
-- [ ] Screenshots beigefügt (bei UI-Änderungen)
+| Change | Directory |
+|--------|-----------|
+| New screen | `lib/screens/` |
+| New business logic | `lib/services/` |
+| New data model | `lib/models/` |
+| Reusable widget | `lib/widgets/` |
+| Utility function | `lib/utils/` |
 
 ---
 
-## Review-Prozess
+## Pull Request Checklist
 
-1. **Automatische Prüfungen**
-   - CI/CD Pipeline ausführen
-   - Tests und Analyse
+Please ensure your PR meets the following requirements:
+
+- [ ] Code follows coding standards
+- [ ] All tests passed (`flutter test`)
+- [ ] No analysis warnings (`flutter analyze`)
+- [ ] Code is formatted (`dart format`)
+- [ ] Documentation updated
+- [ ] Commit messages follow conventions
+- [ ] Changelog updated (for features/bugfixes)
+- [ ] Screenshots attached (for UI changes)
+
+---
+
+## Review Process
+
+1. **Automated Checks**
+   - CI/CD pipeline execution
+   - Tests and analysis
 
 2. **Code Review**
-   - Mindestens ein Reviewer erforderlich
-   - Feedback adressieren
+   - At least one reviewer required
+   - Address feedback
 
 3. **Merge**
-   - Squash and Merge bevorzugt
-   - Branch nach Merge löschen
+   - Squash and merge preferred
+   - Delete branch after merge
 
 ---
 
-## Lizenz
+## License
 
-Mit dem Einreichen eines Pull Requests erklären Sie sich damit einverstanden, dass Ihre Beiträge unter der MIT-Lizenz des Projekts lizenziert werden.
-
----
-
-## Fragen?
-
-Bei Fragen erstellen Sie bitte ein Issue mit dem Label `question`.
+By submitting a pull request, you agree that your contributions will be licensed under the MIT License of the project.
 
 ---
 
-*Vielen Dank für Ihren Beitrag! 🇩🇪*
+## Questions?
+
+For questions, please create an issue with the `question` label.
+
+---
+
+*Thank you for your contribution! 🙏*

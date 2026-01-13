@@ -1,115 +1,115 @@
 # Changelog
 
-Alle bemerkenswerten Änderungen an diesem Projekt werden in dieser Datei dokumentiert.
+All notable changes to this project will be documented in this file.
 
-Das Format basiert auf [Keep a Changelog](https://keepachangelog.com/de/1.0.0/),
-und dieses Projekt folgt der [Semantischen Versionierung](https://semver.org/lang/de/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
-### Geplant
-- Cloud-Speicher-Integration (Google Drive, Dropbox)
-- Batch-OCR-Verarbeitung
-- PDF-Formular-Ausfüllung
+### Planned
+- Cloud storage integration (Google Drive, Dropbox)
+- Batch OCR processing
+- PDF form filling
 
 ---
 
 ## [1.0.0] - 2026-01-12
 
-### ✨ Hinzugefügt
+### ✨ Added
 
-#### Kernfunktionen
-- **Image to PDF Konvertierung**
-  - Mehrfachbildauswahl aus Galerie
-  - Seitenreihenfolge per Drag & Drop ändern
-  - Anpassbare Seitengrößen (A4, A3, A5, Letter, Legal)
-  - Bildqualitätseinstellungen
+#### Core Features
+- **Image to PDF Conversion**
+  - Multiple image selection from gallery
+  - Drag & drop page reordering
+  - Customizable page sizes (A4, A3, A5, Letter, Legal)
+  - Image quality settings
 
-- **Dokumentenscanner**
-  - KI-gestützte Kantenerkennung mit Google ML Kit
-  - Automatische Perspektivkorrektur
-  - Mehrere Scan-Modi (Dokument, Buch, ID-Karte)
-  - Apple VisionKit Integration (iOS)
+- **Document Scanner**
+  - AI-powered edge detection with Google ML Kit
+  - Automatic perspective correction
+  - Multiple scan modes (Document, Book, ID Card)
+  - Apple VisionKit integration (iOS)
 
-- **PDF-Sicherheit**
-  - AES-256 Verschlüsselung
-  - Passwortschutz für PDFs
-  - Berechtigungssteuerung (Drucken, Kopieren, Bearbeiten)
-  - Biometrische Entsperrung (Fingerabdruck/Face ID)
+- **PDF Security**
+  - AES-256 encryption
+  - Password protection for PDFs
+  - Permission control (Print, Copy, Edit)
+  - Biometric unlock (Fingerprint/Face ID)
 
-- **Digitale Signaturen**
-  - Touch-basierte Signaturerfassung mit Stiftunterstützung
-  - Signatur auf PDF-Seiten platzieren
-  - Signatur speichern und wiederverwenden
-  - Anpassbare Stiftfarbe und -stärke
+- **Digital Signatures**
+  - Touch-based signature capture with stylus support
+  - Place signature on PDF pages
+  - Save and reuse signatures
+  - Customizable pen color and stroke width
 
-- **OCR-Textextraktion**
+- **OCR Text Extraction**
   - Google ML Kit Text Recognition
-  - Unterstützung für mehrere Sprachen
-  - Kopieren und Exportieren von extrahiertem Text
-  - Echtzeit-Texterkennung
+  - Multi-language support
+  - Copy and export extracted text
+  - Real-time text recognition
 
 - **PDF Split/Merge**
-  - PDFs nach Seitenbereichen aufteilen
-  - Mehrere PDFs zusammenführen
-  - Einzelne Seiten extrahieren
-  - Seitenreihenfolge ändern
+  - Split PDFs by page ranges
+  - Merge multiple PDFs
+  - Extract individual pages
+  - Reorder pages
 
-- **ID-Foto-Generator**
-  - Standard-Passbildgrößen (35x45mm, 2x2 inch, etc.)
-  - Automatische Gesichtserkennung
-  - KI-Hintergrundentfernung (local_rembg, ML Kit Segmentation)
-  - Verschiedene Hintergrundfarben
+- **ID Photo Generator**
+  - Standard passport photo sizes (35x45mm, 2x2 inch, etc.)
+  - Automatic face detection
+  - AI background removal (local_rembg, ML Kit Segmentation)
+  - Various background colors
 
-- **Visitenkarten**
-  - Professionelle Vorlagen
-  - QR-Code-Generierung
-  - Kontaktinformationen einbetten
-  - Export als PDF oder Bild
+- **Business Cards**
+  - Professional templates
+  - QR code generation
+  - Embedded contact information
+  - Export as PDF or image
 
-- **Wasserzeichen**
-  - Textwasserzeichen mit Schriftartauswahl
-  - Bildwasserzeichen
-  - Position und Transparenz anpassen
-  - Batch-Wasserzeichen für mehrere Seiten
+- **Watermarks**
+  - Text watermarks with font selection
+  - Image watermarks
+  - Adjustable position and transparency
+  - Batch watermarking for multiple pages
 
-#### Benutzeroberfläche
-- Material Design 3 Implementierung
-- Responsive Design für alle Bildschirmgrößen
-- Dark/Light Theme Unterstützung
-- Smooth Animations und Übergänge
-- Shimmer-Ladeeffekte
-- Staggered Grid Layouts
+#### User Interface
+- Material Design 3 implementation
+- Responsive design for all screen sizes
+- Dark/Light theme support
+- Smooth animations and transitions
+- Shimmer loading effects
+- Staggered grid layouts
 
-#### Zusätzliche Funktionen
-- PDF-Verlauf und zuletzt verwendete Dateien
-- Teilen über installierte Apps
-- Dateisystemintegration
-- Einstellungen mit Persistenz
-- Premium-Abonnement-System
-- AdMob-Integration
+#### Additional Features
+- PDF history and recently used files
+- Share via installed apps
+- File system integration
+- Settings with persistence
+- Premium subscription system
+- AdMob integration
 
-### 🏗 Architektur
-- Clean Architecture Pattern
-- Provider State Management
-- Service-basierte Geschäftslogik
-- SQLite Datenbank für Persistenz
-- Responsive Helper für adaptive Layouts
+### 🏗 Architecture
+- Clean Architecture pattern
+- Provider state management
+- Service-based business logic
+- SQLite database for persistence
+- Responsive helper for adaptive layouts
 
-### 🔧 Technisch
-- Flutter 3.5.4+ Kompatibilität
-- Dart 3.0+ Null Safety
+### 🔧 Technical
+- Flutter 3.5.4+ compatibility
+- Dart 3.0+ null safety
 - Android minSdk 21
-- iOS 12+ Unterstützung
-- Web-Build verfügbar
+- iOS 12+ support
+- Web build available
 
 ---
 
-## Versionshistorie
+## Version History
 
-| Version | Datum | Änderungen |
-|---------|-------|------------|
-| 1.0.0 | 2026-01-12 | Erste stabile Veröffentlichung |
+| Version | Date | Changes |
+|---------|------|---------|
+| 1.0.0 | 2026-01-12 | Initial stable release |
 
 ---
 

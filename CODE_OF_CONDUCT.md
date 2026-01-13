@@ -1,103 +1,103 @@
-# Verhaltenskodex für Mitwirkende
+# Contributor Code of Conduct
 
-## Unser Versprechen
+## Our Pledge
 
-Im Interesse einer offenen und einladenden Umgebung verpflichten wir uns als Mitwirkende und Maintainer, die Teilnahme an unserem Projekt und unserer Community zu einer belästigungsfreien Erfahrung für alle zu machen, unabhängig von Alter, Körpergröße, Behinderung, ethnischer Herkunft, Geschlechtsidentität und -ausdruck, Erfahrungsniveau, Nationalität, persönlichem Erscheinungsbild, Rasse, Religion oder sexueller Identität und Orientierung.
-
----
-
-## Unsere Standards
-
-### ✅ Positives Verhalten
-
-Beispiele für Verhaltensweisen, die zu einer positiven Umgebung beitragen:
-
-- **Respektvolle Kommunikation**: Verwendung einer einladenden und inklusiven Sprache
-- **Konstruktives Feedback**: Respektvolle Annahme konstruktiver Kritik
-- **Gemeinschaftsorientierung**: Fokus auf das, was für die Community am besten ist
-- **Empathie**: Empathie gegenüber anderen Community-Mitgliedern zeigen
-- **Professionelle Zusammenarbeit**: Verschiedene Standpunkte und Erfahrungen respektieren
-
-### ❌ Inakzeptables Verhalten
-
-Beispiele für inakzeptables Verhalten:
-
-- Verwendung sexualisierter Sprache oder Bilder und unerwünschte sexuelle Aufmerksamkeit
-- Trolling, beleidigende/abwertende Kommentare und persönliche oder politische Angriffe
-- Öffentliche oder private Belästigung
-- Veröffentlichung privater Informationen anderer ohne ausdrückliche Genehmigung
-- Anderes Verhalten, das in einem professionellen Umfeld als unangemessen angesehen werden könnte
+In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 ---
 
-## Unsere Verantwortlichkeiten
+## Our Standards
 
-Projektmaintainer sind verantwortlich für die Klärung der Standards für akzeptables Verhalten und werden voraussichtlich angemessene und faire Korrekturmaßnahmen als Reaktion auf alle Fälle von inakzeptablem Verhalten ergreifen.
+### ✅ Positive Behavior
 
-Projektmaintainer haben das Recht und die Verantwortung, Kommentare, Commits, Code, Wiki-Bearbeitungen, Issues und andere Beiträge zu entfernen, zu bearbeiten oder abzulehnen, die nicht mit diesem Verhaltenskodex übereinstimmen, oder Mitwirkende vorübergehend oder dauerhaft für andere Verhaltensweisen zu sperren, die sie für unangemessen, bedrohlich, beleidigend oder schädlich halten.
+Examples of behavior that contributes to creating a positive environment include:
 
----
+- **Respectful Communication**: Using welcoming and inclusive language
+- **Constructive Feedback**: Gracefully accepting constructive criticism
+- **Community Focus**: Focusing on what is best for the community
+- **Empathy**: Showing empathy towards other community members
+- **Professional Collaboration**: Respecting differing viewpoints and experiences
 
-## Geltungsbereich
+### ❌ Unacceptable Behavior
 
-Dieser Verhaltenskodex gilt sowohl innerhalb von Projektbereichen als auch in öffentlichen Bereichen, wenn eine Person das Projekt oder seine Community vertritt.
+Examples of unacceptable behavior include:
 
-Beispiele für die Vertretung eines Projekts oder einer Community sind:
-
-- Verwendung einer offiziellen Projekt-E-Mail-Adresse
-- Posten über einen offiziellen Social-Media-Account
-- Handeln als ernannter Vertreter bei einer Online- oder Offline-Veranstaltung
-
-Die Vertretung eines Projekts kann von Projektmaintainern weiter definiert und klargestellt werden.
-
----
-
-## Durchsetzung
-
-Fälle von missbräuchlichem, belästigendem oder anderweitig inakzeptablem Verhalten können an das Projektteam gemeldet werden unter:
-
-📧 **[Kontakt via GitHub Issues mit Label "conduct"]**
-
-Alle Beschwerden werden geprüft und untersucht und führen zu einer Reaktion, die unter den gegebenen Umständen als notwendig und angemessen erachtet wird.
-
-Das Projektteam ist verpflichtet, die Vertraulichkeit in Bezug auf den Melder eines Vorfalls zu wahren. Weitere Details zu spezifischen Durchsetzungsrichtlinien können separat veröffentlicht werden.
-
-Projektmaintainer, die den Verhaltenskodex nicht in gutem Glauben befolgen oder durchsetzen, können vorübergehende oder dauerhafte Konsequenzen erleiden, wie sie von anderen Mitgliedern der Projektleitung bestimmt werden.
+- The use of sexualized language or imagery and unwelcome sexual attention or advances
+- Trolling, insulting/derogatory comments, and personal or political attacks
+- Public or private harassment
+- Publishing others' private information without explicit permission
+- Other conduct which could reasonably be considered inappropriate in a professional setting
 
 ---
 
-## Eskalationsprozess
+## Our Responsibilities
+
+Project maintainers are responsible for clarifying the standards of acceptable behavior and are expected to take appropriate and fair corrective action in response to any instances of unacceptable behavior.
+
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, or to ban temporarily or permanently any contributor for other behaviors that they deem inappropriate, threatening, offensive, or harmful.
+
+---
+
+## Scope
+
+This Code of Conduct applies both within project spaces and in public spaces when an individual is representing the project or its community.
+
+Examples of representing a project or community include:
+
+- Using an official project e-mail address
+- Posting via an official social media account
+- Acting as an appointed representative at an online or offline event
+
+Representation of a project may be further defined and clarified by project maintainers.
+
+---
+
+## Enforcement
+
+Instances of abusive, harassing, or otherwise unacceptable behavior may be reported by contacting the project team at:
+
+📧 **[Contact via GitHub Issues with label "conduct"]**
+
+All complaints will be reviewed and investigated and will result in a response that is deemed necessary and appropriate to the circumstances.
+
+The project team is obligated to maintain confidentiality with regard to the reporter of an incident. Further details of specific enforcement policies may be posted separately.
+
+Project maintainers who do not follow or enforce the Code of Conduct in good faith may face temporary or permanent repercussions as determined by other members of the project's leadership.
+
+---
+
+## Escalation Process
 
 ```mermaid
 flowchart TB
-    A[Vorfall gemeldet] --> B{Erste Bewertung}
-    B --> C[Warnung]
-    B --> D[Temporäre Sperre]
-    B --> E[Permanente Sperre]
-    C --> F[Überwachung]
-    D --> G[Review nach Frist]
-    G --> H{Verbesserung?}
-    H -->|Ja| I[Wiederzulassung]
-    H -->|Nein| E
+    A[Incident Reported] --> B{Initial Assessment}
+    B --> C[Warning]
+    B --> D[Temporary Ban]
+    B --> E[Permanent Ban]
+    C --> F[Monitoring]
+    D --> G[Review after period]
+    G --> H{Improvement?}
+    H -->|Yes| I[Reinstatement]
+    H -->|No| E
 ```
 
 ---
 
-## Zuordnung
+## Attribution
 
-Dieser Verhaltenskodex ist adaptiert vom [Contributor Covenant](https://www.contributor-covenant.org), Version 1.4, verfügbar unter https://www.contributor-covenant.org/de/version/1/4/code-of-conduct.html
-
----
-
-## Zusammenfassung
-
-| Aspekt | Erwartung |
-|--------|-----------|
-| Kommunikation | Respektvoll und inklusiv |
-| Feedback | Konstruktiv und sachlich |
-| Zusammenarbeit | Professionell und offen |
-| Konflikte | Faire und transparente Lösung |
+This Code of Conduct is adapted from the [Contributor Covenant](https://www.contributor-covenant.org), version 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
 
 ---
 
-*Gemeinsam für eine positive Open-Source-Community* 🤝
+## Summary
+
+| Aspect | Expectation |
+|--------|-------------|
+| Communication | Respectful and inclusive |
+| Feedback | Constructive and objective |
+| Collaboration | Professional and open |
+| Conflicts | Fair and transparent resolution |
+
+---
+
+*Together for a positive Open Source Community* 🤝

@@ -1,4 +1,4 @@
-# PDFGen - Dokumentenkonvertierung & PDF-Toolkit
+# PDFGen - Document Conversion & PDF Toolkit
 
 <div align="center">
 
@@ -9,48 +9,48 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-orange)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
 
-**Eine professionelle, funktionsreiche Flutter-Anwendung für umfassende PDF-Erstellung und Dokumentenmanagement**
+**A professional, feature-rich Flutter application for comprehensive PDF creation and document management**
 
-[Features](#-funktionen) • [Architektur](#-architektur) • [Installation](#-installation) • [Projektstruktur](#-projektstruktur) • [Technologien](#-technologie-stack)
+[Features](#-features) • [Architecture](#-architecture) • [Installation](#-installation) • [Project Structure](#-project-structure) • [Technologies](#-technology-stack)
 
 </div>
 
 ---
 
-## 📋 Übersicht
+## 📋 Overview
 
-PDFGen ist eine hochmoderne mobile Anwendung für die professionelle PDF-Erstellung und Dokumentenverarbeitung. Die Anwendung bietet eine umfassende Suite von Werkzeugen für die Bildkonvertierung, Dokumentenscanning mit KI-gestützter Kantenerkennung, OCR-Textextraktion, PDF-Sicherheit und vieles mehr.
+PDFGen is a state-of-the-art mobile application for professional PDF creation and document processing. The application offers a comprehensive suite of tools for image conversion, document scanning with AI-powered edge detection, OCR text extraction, PDF security, and more.
 
-### Hauptmerkmale
+### Key Highlights
 
-- 🔄 **Bildkonvertierung**: Konvertierung mehrerer Bilder in ein einzelnes PDF-Dokument
-- 📷 **Dokumentenscanning**: KI-gestützte Kantenerkennung mit Google ML Kit
-- 🔒 **PDF-Sicherheit**: Passwortschutz und Verschlüsselung von PDFs
-- ✍️ **Digitale Signaturen**: Touch-basierte Signaturerfassung und PDF-Einbettung
-- 🔍 **OCR-Extraktion**: Optische Zeichenerkennung für gescannte Dokumente
-- 🪪 **ID-Foto-Generator**: Professionelle Passfotos mit Hintergrundentfernung
-- 💼 **Visitenkarten**: Erstellung und Export von Geschäftskarten
-- 💦 **Wasserzeichen**: Text- und Bildwasserzeichen für Dokumente
+- 🔄 **Image Conversion**: Convert multiple images into a single PDF document
+- 📷 **Document Scanning**: AI-powered edge detection with Google ML Kit
+- 🔒 **PDF Security**: Password protection and encryption for PDFs
+- ✍️ **Digital Signatures**: Touch-based signature capture and PDF embedding
+- 🔍 **OCR Extraction**: Optical character recognition for scanned documents
+- 🪪 **ID Photo Generator**: Professional passport photos with background removal
+- 💼 **Business Cards**: Creation and export of business cards
+- 💦 **Watermarks**: Text and image watermarks for documents
 
 ---
 
-## 🏗 Architektur
+## 🏗 Architecture
 
-Die Anwendung folgt einer sauberen, modularen Architektur mit klarer Trennung der Verantwortlichkeiten:
+The application follows a clean, modular architecture with clear separation of concerns:
 
 ```mermaid
 graph TB
-    subgraph Präsentationsschicht
+    subgraph Presentation Layer
         UI[Screens / Views]
         WG[Widgets]
     end
     
-    subgraph Geschäftslogik
+    subgraph Business Logic
         PR[Providers]
         SV[Services]
     end
     
-    subgraph Datenschicht
+    subgraph Data Layer
         MD[Models]
         DB[Database]
         UT[Utils]
@@ -69,88 +69,88 @@ graph TB
     style MD fill:#9C27B0
 ```
 
-### Architekturprinzipien
+### Architecture Principles
 
-| Prinzip | Beschreibung |
-|---------|-------------|
-| **Separation of Concerns** | Klare Trennung zwischen UI, Geschäftslogik und Datenschicht |
-| **Single Responsibility** | Jede Komponente hat genau eine Verantwortung |
-| **Dependency Injection** | Provider-Pattern für lose Kopplung |
-| **Clean Code** | Lesbare, wartbare Codebasis nach Industriestandards |
-
----
-
-## ✨ Funktionen
-
-### Kernfunktionen
-
-| Funktion | Beschreibung | Status |
-|----------|-------------|--------|
-| **Image to PDF** | Konvertierung mehrerer Bilder zu PDF | ✅ Implementiert |
-| **Document Scanner** | KI-gestützte Kantenerkennung | ✅ Implementiert |
-| **PDF Security** | Passwortschutz & Verschlüsselung | ✅ Implementiert |
-| **Digital Signatures** | Touch-basierte Signaturerfassung | ✅ Implementiert |
-| **OCR Text Extraction** | Google ML Kit Integration | ✅ Implementiert |
-| **PDF Split/Merge** | Dokumente teilen und zusammenführen | ✅ Implementiert |
-| **ID Photo Generator** | Passfotos mit KI-Hintergrundentfernung | ✅ Implementiert |
-| **Business Cards** | Visitenkarten-Generator | ✅ Implementiert |
-| **Watermarks** | Text- und Bildwasserzeichen | ✅ Implementiert |
-
-### Erweiterte Funktionen
-
-- **Biometrische Authentifizierung**: Fingerabdruck/Face ID für geschützte PDFs
-- **Stapelverarbeitung**: Verarbeitung mehrerer Dokumente gleichzeitig
-- **Cloud-Export**: Teilen über alle installierten Apps
-- **Dunkelmodus**: Vollständige Dark/Light Theme Unterstützung
-- **Mehrsprachigkeit**: Lokalisierte Benutzeroberfläche
+| Principle | Description |
+|-----------|-------------|
+| **Separation of Concerns** | Clear separation between UI, business logic, and data layer |
+| **Single Responsibility** | Each component has exactly one responsibility |
+| **Dependency Injection** | Provider pattern for loose coupling |
+| **Clean Code** | Readable, maintainable codebase following industry standards |
 
 ---
 
-## 🛠 Technologie-Stack
+## ✨ Features
 
-### Framework & Sprache
+### Core Features
 
-| Technologie | Version | Verwendung |
-|------------|---------|-----------|
+| Feature | Description | Status |
+|---------|-------------|--------|
+| **Image to PDF** | Convert multiple images to PDF | ✅ Implemented |
+| **Document Scanner** | AI-powered edge detection | ✅ Implemented |
+| **PDF Security** | Password protection & encryption | ✅ Implemented |
+| **Digital Signatures** | Touch-based signature capture | ✅ Implemented |
+| **OCR Text Extraction** | Google ML Kit integration | ✅ Implemented |
+| **PDF Split/Merge** | Split and merge documents | ✅ Implemented |
+| **ID Photo Generator** | Passport photos with AI background removal | ✅ Implemented |
+| **Business Cards** | Business card generator | ✅ Implemented |
+| **Watermarks** | Text and image watermarks | ✅ Implemented |
+
+### Advanced Features
+
+- **Biometric Authentication**: Fingerprint/Face ID for protected PDFs
+- **Batch Processing**: Process multiple documents simultaneously
+- **Cloud Export**: Share via all installed apps
+- **Dark Mode**: Full Dark/Light theme support
+- **Localization**: Localized user interface
+
+---
+
+## 🛠 Technology Stack
+
+### Framework & Language
+
+| Technology | Version | Usage |
+|------------|---------|-------|
 | Flutter | 3.5.4+ | Cross-Platform UI Framework |
-| Dart | 3.0+ | Programmiersprache |
+| Dart | 3.0+ | Programming Language |
 
-### Kernabhängigkeiten
+### Core Dependencies
 
 ```yaml
-# PDF-Verarbeitung
-pdf: ^3.11.1                          # PDF-Generierung
-printing: ^5.13.4                      # Druckfunktionalität
-syncfusion_flutter_pdf: ^24.2.9       # Erweiterte PDF-Operationen
-pdfx: ^2.6.0                          # PDF-Rendering & Thumbnails
+# PDF Processing
+pdf: ^3.11.1                          # PDF generation
+printing: ^5.13.4                      # Print functionality
+syncfusion_flutter_pdf: ^24.2.9       # Advanced PDF operations
+pdfx: ^2.6.0                          # PDF rendering & thumbnails
 
-# Bildverarbeitung
-image: ^4.2.0                         # Bildmanipulation
-image_cropper: ^11.0.0                # Bildzuschnitt
-image_picker: ^1.1.2                  # Bildauswahl
+# Image Processing
+image: ^4.2.0                         # Image manipulation
+image_cropper: ^11.0.0                # Image cropping
+image_picker: ^1.1.2                  # Image selection
 
-# Google ML Kit (KI-Funktionen)
+# Google ML Kit (AI Features)
 google_mlkit_text_recognition: ^0.13.0    # OCR
-google_mlkit_document_scanner: ^0.3.0     # Dokumentenscanning
-google_mlkit_face_detection: ^0.11.0      # Gesichtserkennung
-google_mlkit_selfie_segmentation: ^0.7.0  # Hintergrundentfernung
+google_mlkit_document_scanner: ^0.3.0     # Document scanning
+google_mlkit_face_detection: ^0.11.0      # Face detection
+google_mlkit_selfie_segmentation: ^0.7.0  # Background removal
 
-# Authentifizierung & Sicherheit
-local_auth: ^2.1.8                    # Biometrie
+# Authentication & Security
+local_auth: ^2.1.8                    # Biometrics
 
 # State Management
-provider: ^6.1.2                      # State Management
+provider: ^6.1.2                      # State management
 
-# Datenbank & Speicher
-sqflite: ^2.4.1                       # SQLite Datenbank
-shared_preferences: ^2.3.3            # Key-Value Speicher
-path_provider: ^2.1.4                 # Dateisystempfade
+# Database & Storage
+sqflite: ^2.4.1                       # SQLite database
+shared_preferences: ^2.3.3            # Key-value storage
+path_provider: ^2.1.4                 # File system paths
 ```
 
-### Vollständige Abhängigkeitsliste
+### Full Dependency List
 
 <details>
-<summary>Alle Dependencies anzeigen</summary>
+<summary>Show all dependencies</summary>
 
 ```yaml
 dependencies:
@@ -198,93 +198,93 @@ dependencies:
 
 ---
 
-## 📁 Projektstruktur
+## 📁 Project Structure
 
 ```
 lib/
-├── main.dart                    # Anwendungseinstiegspunkt
-├── constants/                   # App-weite Konstanten
-│   └── app_theme.dart          # Theme-Definitionen
-├── database/                    # Datenbankschicht
-│   └── database_helper.dart    # SQLite-Operationen
-├── models/                      # Datenmodelle
-│   ├── id_photo_template.dart  # ID-Foto-Vorlagen
-│   ├── pdf_file_model.dart     # PDF-Dateimodell
-│   ├── page_range.dart         # Seitenbereichsmodell
+├── main.dart                    # Application entry point
+├── constants/                   # App-wide constants
+│   └── app_theme.dart          # Theme definitions
+├── database/                    # Database layer
+│   └── database_helper.dart    # SQLite operations
+├── models/                      # Data models
+│   ├── id_photo_template.dart  # ID photo templates
+│   ├── pdf_file_model.dart     # PDF file model
+│   ├── page_range.dart         # Page range model
 │   └── recent_activity_model.dart
-├── providers/                   # State Management
-│   └── pdf_provider.dart       # PDF-Zustandsverwaltung
-├── screens/                     # UI-Bildschirme (23 Screens)
-│   ├── home_screen.dart        # Hauptbildschirm
+├── providers/                   # State management
+│   └── pdf_provider.dart       # PDF state management
+├── screens/                     # UI screens (23 screens)
+│   ├── home_screen.dart        # Main screen
 │   ├── dashboard_screen.dart   # Dashboard
-│   ├── converter_screen.dart   # Bildkonvertierung
-│   ├── scanner_screen.dart     # Dokumentenscanner
-│   ├── ocr_screen.dart         # OCR-Extraktion
-│   ├── pdf_security_screen.dart # Sicherheitseinstellungen
-│   ├── digital_signature_screen.dart # Signaturen
-│   ├── id_photo_screen.dart    # ID-Fotos
-│   ├── watermark_screen.dart   # Wasserzeichen
-│   └── ...                     # Weitere Screens
-├── services/                    # Geschäftslogik (14 Services)
-│   ├── pdf_service.dart        # PDF-Operationen
-│   ├── pdf_security_service.dart # Verschlüsselung
-│   ├── ocr_service.dart        # OCR-Verarbeitung
-│   ├── id_photo_service.dart   # ID-Foto-Generierung
-│   ├── watermark_service.dart  # Wasserzeichen
-│   ├── biometric_service.dart  # Biometrie
-│   └── ...                     # Weitere Services
-├── utils/                       # Hilfsfunktionen
-│   └── responsive_helper.dart  # Responsive Design
-├── widgets/                     # Wiederverwendbare Widgets
-│   └── pdf_page_preview.dart   # PDF-Vorschau
-└── theme/                       # Theme-Konfiguration
+│   ├── converter_screen.dart   # Image conversion
+│   ├── scanner_screen.dart     # Document scanner
+│   ├── ocr_screen.dart         # OCR extraction
+│   ├── pdf_security_screen.dart # Security settings
+│   ├── digital_signature_screen.dart # Signatures
+│   ├── id_photo_screen.dart    # ID photos
+│   ├── watermark_screen.dart   # Watermarks
+│   └── ...                     # Additional screens
+├── services/                    # Business logic (14 services)
+│   ├── pdf_service.dart        # PDF operations
+│   ├── pdf_security_service.dart # Encryption
+│   ├── ocr_service.dart        # OCR processing
+│   ├── id_photo_service.dart   # ID photo generation
+│   ├── watermark_service.dart  # Watermarks
+│   ├── biometric_service.dart  # Biometrics
+│   └── ...                     # Additional services
+├── utils/                       # Utility functions
+│   └── responsive_helper.dart  # Responsive design
+├── widgets/                     # Reusable widgets
+│   └── pdf_page_preview.dart   # PDF preview
+└── theme/                       # Theme configuration
 ```
 
 ---
 
 ## 🚀 Installation
 
-### Voraussetzungen
+### Prerequisites
 
-| Anforderung | Version |
+| Requirement | Version |
 |-------------|---------|
 | Flutter SDK | ≥ 3.5.4 |
 | Dart SDK | ≥ 3.0 |
-| Android Studio / VS Code | Aktuell |
+| Android Studio / VS Code | Latest |
 | Android SDK | minSdk 21 (Android 5.0) |
-| Xcode (für iOS) | ≥ 14.0 |
+| Xcode (for iOS) | ≥ 14.0 |
 
-### Schritt-für-Schritt-Anleitung
+### Step-by-Step Guide
 
-1. **Repository klonen**
+1. **Clone the repository**
    ```bash
    git clone https://github.com/Nishanth619/PDF-_Gen.git
    cd PDF-_Gen
    ```
 
-2. **Abhängigkeiten installieren**
+2. **Install dependencies**
    ```bash
    flutter pub get
    ```
 
-3. **Anwendung ausführen**
+3. **Run the application**
    ```bash
-   # Entwicklungsmodus
+   # Development mode
    flutter run
    
-   # Release-Build (Android)
+   # Release build (Android)
    flutter build apk --release
    
-   # Release-Build (iOS)
+   # Release build (iOS)
    flutter build ios --release
    ```
 
-### Fehlerbehebung
+### Troubleshooting
 
 <details>
-<summary>Häufige Probleme und Lösungen</summary>
+<summary>Common issues and solutions</summary>
 
-**Problem**: Gradle-Synchronisierungsfehler
+**Issue**: Gradle sync error
 ```bash
 cd android
 ./gradlew clean
@@ -293,7 +293,7 @@ flutter clean
 flutter pub get
 ```
 
-**Problem**: iOS Pod-Installation fehlgeschlagen
+**Issue**: iOS pod installation failed
 ```bash
 cd ios
 pod deintegrate
@@ -301,64 +301,64 @@ pod install --repo-update
 cd ..
 ```
 
-**Problem**: ML Kit nicht gefunden
-- Stellen Sie sicher, dass Google Play Services auf dem Gerät installiert sind
-- Prüfen Sie die Internetverbindung für den ersten Download
+**Issue**: ML Kit not found
+- Ensure Google Play Services are installed on the device
+- Check internet connection for initial download
 
 </details>
 
 ---
 
-## 🧪 Qualitätssicherung
+## 🧪 Quality Assurance
 
-### Testabdeckung
+### Test Coverage
 
 ```bash
-# Unit-Tests ausführen
+# Run unit tests
 flutter test
 
-# Mit Abdeckungsbericht
+# With coverage report
 flutter test --coverage
 ```
 
-### Code-Analyse
+### Code Analysis
 
 ```bash
-# Statische Analyse
+# Static analysis
 flutter analyze
 
-# Formatierung prüfen
+# Check formatting
 dart format --set-exit-if-changed .
 ```
 
-### Vorhandene Tests
+### Available Tests
 
-- `test/responsive_helper_test.dart` - Responsive Design Tests
-- `test/widget_test.dart` - Widget-Tests
-
----
-
-## 🤝 Mitwirken
-
-Beiträge sind willkommen! Bitte lesen Sie unsere [CONTRIBUTING.md](CONTRIBUTING.md) für Details zum Entwicklungsprozess und unsere Coding-Standards.
-
-### Schnellstart für Entwickler
-
-1. Repository forken
-2. Feature-Branch erstellen (`git checkout -b feature/NeuesFunktion`)
-3. Änderungen committen (`git commit -m 'feat: Neue Funktion hinzugefügt'`)
-4. Branch pushen (`git push origin feature/NeuesFunktion`)
-5. Pull Request erstellen
+- `test/responsive_helper_test.dart` - Responsive design tests
+- `test/widget_test.dart` - Widget tests
 
 ---
 
-## 📄 Lizenz
+## 🤝 Contributing
 
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe [LICENSE](LICENSE) für Details.
+Contributions are welcome! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on the development process and our coding standards.
+
+### Quick Start for Developers
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/NewFeature`)
+3. Commit your changes (`git commit -m 'feat: Add new feature'`)
+4. Push to the branch (`git push origin feature/NewFeature`)
+5. Open a Pull Request
 
 ---
 
-## 👨‍💻 Autor
+## 📄 License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## 👨‍💻 Author
 
 **Nishanth**
 
@@ -366,21 +366,21 @@ Dieses Projekt ist unter der MIT-Lizenz lizenziert. Siehe [LICENSE](LICENSE) fü
 
 ---
 
-## 📊 Projektstatistiken
+## 📊 Project Statistics
 
-| Metrik | Wert |
+| Metric | Value |
 |--------|------|
 | Screens | 23 |
 | Services | 14 |
 | Models | 6 |
 | Widgets | 12 |
 | Tests | 2 |
-| Gesamte Codezeilen | 400.000+ |
+| Total Lines of Code | 400,000+ |
 
 ---
 
 <div align="center">
 
-**Mit ❤️ und deutscher Präzision entwickelt**
+**Built with ❤️ and precision engineering**
 
 </div>
