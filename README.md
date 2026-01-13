@@ -34,6 +34,20 @@ PDFGen is a state-of-the-art mobile application for professional PDF creation an
 
 ---
 
+## 📱 App Gallery
+
+| Home Screen | Converter | Document Scanner |
+|:-----------:|:---------:|:----------------:|
+| <img src="docs/screenshots/home.png" width="250" alt="Home Screen"/> | <img src="docs/screenshots/converter.png" width="250" alt="Converter"/> | <img src="docs/screenshots/scanner.png" width="250" alt="Scanner"/> |
+| **Dashboard & Quick Actions** | **Multi-Image Conversion** | **AI Edge Detection** |
+
+| PDF Security | Digital Signature | ID Photo |
+|:------------:|:-----------------:|:--------:|
+| <img src="docs/screenshots/security.png" width="250" alt="Security"/> | <img src="docs/screenshots/signature.png" width="250" alt="Signature"/> | <img src="docs/screenshots/id_photo.png" width="250" alt="ID Photo"/> |
+| **Encryption & Password** | **Vector Signatures** | **Background Removal** |
+
+---
+
 ## 🏗 Architecture
 
 The application follows a clean, modular architecture with clear separation of concerns:
